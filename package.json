@@ -5,6 +5,10 @@
   "author": "Cosimo Matteini",
   "license": "MIT",
   "packageManager": "pnpm@9.1.4",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "format": "prettier -w src/**/*.ts",
     "typecheck": "tsc --noEmit",
@@ -16,7 +20,8 @@
   "dependencies": {
     "effect": "3.2.8",
     "@effect/platform": "0.55.5",
-    "@effect/platform-node": "0.51.5"
+    "@effect/platform-node": "0.51.5",
+    "sharp": "0.33.4"
   },
   "devDependencies": {
     "@types/node": "20.14.0",

@@ -20,3 +20,6 @@ yarn-error.log*
 # ide/editors
 .idea/
 .vscode/
+
+# processed photos
+src/public/team-photos/processed/*.webp
