@@ -6,7 +6,11 @@
     "tabWidth": 4,
     "overrides": [
         {
-            "files": ["*.yaml", "*.yml"],
+            "files": [
+                "*.yaml",
+                "*.yml",
+                "*.md"
+            ],
             "options": {
                 "tabWidth": 2
             }
