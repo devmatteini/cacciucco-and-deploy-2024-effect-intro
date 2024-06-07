@@ -143,6 +143,10 @@ You start with only one end to end test that ensures that the `images.json` file
 
 The testing framework is [vitest](https://vitest.dev/)
 
+### Solution
+
+Check out the `solution` branch, or for the full kata see https://github.com/devmatteini/imperative-to-fp-kata/tree/solution
+
 ## Effect resources
 
 - https://effect.website
